@@ -1,5 +1,5 @@
 import React from 'react';
-import FooterSection from '../components/footer';
+// import FooterSection from '../components/footer';
 import StudentPortal from './projectsDone/studentportal';
 import StudentForm from './projectsDone/studentform';
 import Calculater from './projectsDone/calculater';
@@ -20,7 +20,7 @@ export default function  Projects(){
 
   </div>
   </div>
-  <FooterSection/>
+  {/* <FooterSection/> */}
 
  </>)
 }

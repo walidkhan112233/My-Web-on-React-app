@@ -1,5 +1,5 @@
 import React from 'react';
-import FooterSection from '../components/footer';
+// import FooterSection from '../components/footer';
 
 export default function About(){
  return (<>

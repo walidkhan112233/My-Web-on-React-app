@@ -12,7 +12,7 @@ export default function Navbar() {
      <nav className="bg-black sticky top-0 p-3">
         <div className="container mx-auto flex justify-between items-center">
           {/* Logo */}
-          <div className="text-white text-2xl font-bold">𝓦'𝓼 𝓓𝓮𝓷</div>
+          <div className="text-white text-2xl  font-bold">𝓦'𝓼 𝓓𝓮𝓷</div>
 
           {/* Hamburger Menu (Mobile) */}
           <button
@@ -39,17 +39,17 @@ export default function Navbar() {
           {/* Desktop Menu */}
           <ul className="hidden md:flex space-x-6">
             <li>
-              <Link to="/" className="text-white hover:text-brown-300 transition duration-300">𝐻𝑜𝓂𝑒</Link>
+              <Link to="/" className="text-white hover:text-brown-300 hover:underline transition duration-300">𝐻𝑜𝓂𝑒</Link>
             </li>
             <li>
-              <Link to="/about" className="text-white hover:text-brown-300 transition duration-300">𝒜𝒷𝑜𝓊𝓉</Link>
+              <Link to="/about" className="text-white hover:text-brown-300 hover:underline transition duration-300">𝒜𝒷𝑜𝓊𝓉</Link>
             </li>
             <li>
-              <Link to="/projects" className="text-white hover:text-brown-300 transition duration-300">𝒫𝓇𝑜𝒿𝑒𝒸𝓉𝓈</Link>
+              <Link to="/projects" className="text-white hover:text-brown-300 hover:underline transition duration-300">𝒫𝓇𝑜𝒿𝑒𝒸𝓉𝓈</Link>
             </li>
             
             <li>
-              <Link to="/contactus" className="text-white hover:text-brown-300 transition duration-300">𝒞𝑜𝓃𝓉𝒶𝒸𝓉 𝒰𝓈</Link>
+              <Link to="/contactus" className="text-white hover:text-brown-300 hover:underline transition duration-300">𝒞𝑜𝓃𝓉𝒶𝒸𝓉 𝒰𝓈</Link>
             </li>
            
           </ul>
@@ -59,17 +59,17 @@ export default function Navbar() {
         {isOpen && (
           <ul className="md:hidden bg-black mt-4 space-y-2 p-4">
             <li>
-              <Link to="/" className="block text-white hover:text-brown-300 transition duration-300">𝐻𝑜𝓂𝑒</Link>
+              <Link to="/" className="block text-white hover:text-brown-300 hover:underline transition duration-300">𝐻𝑜𝓂𝑒</Link>
             </li>
             <li>
-              <Link to="/about" className="block text-white hover:text-brown-300 transition duration-300">𝒜𝒷𝑜𝓊𝓉</Link>
+              <Link to="/about" className="block text-white hover:text-brown-300 hover:underline transition duration-300">𝒜𝒷𝑜𝓊𝓉</Link>
             </li>
             <li>
-              <Link to="/projects" className="block text-white hover:text-brown-300 transition duration-300">𝒫𝓇𝑜𝒿𝑒𝒸𝓉𝓈</Link>
+              <Link to="/projects" className="block text-white hover:text-brown-300 hover:underline transition duration-300">𝒫𝓇𝑜𝒿𝑒𝒸𝓉𝓈</Link>
             </li>
             
             <li>
-              <Link to="/contactus" className="block text-white hover:text-brown-300 transition duration-300">𝒞𝑜𝓃𝓉𝒶𝒸𝓉 𝒰𝓈</Link>
+              <Link to="/contactus" className="block text-white hover:text-brown-300 hover:underline transition duration-300">𝒞𝑜𝓃𝓉𝒶𝒸𝓉 𝒰𝓈</Link>
             </li>
            
           </ul>

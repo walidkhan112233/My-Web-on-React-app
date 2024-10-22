@@ -7,6 +7,7 @@ import About from '../../pages/about';
 import Projects from '../../pages/projects';
 
 import ContactUs from '../../pages/contactus';
+import FooterSection from '../../components/footer';
 
 
 export default function RouterApp() {
@@ -20,6 +21,7 @@ export default function RouterApp() {
                     <Route path='projects' element={<Projects />} />
                     <Route path='contactus' element={<ContactUs />} />
                 </Routes>
+                <FooterSection/>
             </Router>
         </>
     );
